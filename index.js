@@ -17,12 +17,12 @@ function actualizar (){
         hour = hour-12
     }
     // if ((hour,min,seg)<10){
-            
+
     // }
 
     let time = hour + ":" + min + ":" + seg + mer;
     timer.innerHTML = time;
-    setTimeout(actualizar, 1000);
+    setTimeout(actualizar,1000);
 }
 
 actualizar()
