@@ -1,0 +1,27 @@
+
+body{
+    box-sizing: border-box;
+    max-width: 600px;
+    background-color: mediumslateblue;
+    margin: 0 auto;
+}
+.box{
+    width: auto;
+    border: 5px solid black;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+}   
+#clock{
+    font-size: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    border: solid black 10px;
+}
