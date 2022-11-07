@@ -16,9 +16,10 @@ function actualizar (){
         mer = " pm"
         hour = hour-12
     }
-    // if ((hour,min,seg)<10){
 
-    // }
+    hour = (hour<10) ? "0"+ hour : hour;
+    min = (min<10) ? "0"+ min : min;
+    seg = (seg<10) ? "0"+ seg : seg;
 
     let time = hour + ":" + min + ":" + seg + mer;
     timer.innerHTML = time;
